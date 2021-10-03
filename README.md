@@ -1,47 +1,46 @@
 # simulador_telefonia_2.0
 Final assignment for Algorithm Project 
-Etapas:
+# Simulador de Telefonia #
 
--Uma central guarda todos os números válidos.
+# Sobre
+Um demonstrador em Java de como um fluxo de ligações, chamadas em espera funcionam em um ambiente com antenas, simulando, pro fim, uma telefonia ativa.
 
--Cada antena guarda um grupo dos números existentes.
 
--Ao solicitar uma ligação, um número pode ativar mais de uma antena, mas não pode receber mais de uma chamada.
+# Software usado e testado
 
--Ligações tem uma duração d.
+Windows:
 
--Um n° desocupado (number.online = false) disca para um n° qualquer.
+IntelliJ e Gitbash (para log).
 
--Caso o número esteja desocupado e as antenas tenham vaga, a ligação é iniciada (number.online = true).
+Ubuntu:
 
--Cada antena só pode realizar n ligações simultaneamente.
+IntelliJ e Terminal (para log).
 
--Se uma antena atingir o número máximo de ligações, a próxima ligação entrará em uma “fila de espera de solicitações”.
+# Comandos existentes:
 
--Os números também são divididos em classes de prioridades. As solicitações de ligação, cuja SOMA das prioridades entre solicitante e recebedor forem mais altas, são conectadas primeiro pelas antenas.
+O output dos comandos estão disponíveis no Terminal preferido através do comando
+tail -f antenas.log localizado na pasta deste repositório. O arquivo log é incrementado conforme as informações registradas durante a simulação.
 
-REQUISITOS
 
-RF001 – Iniciar uma chamada.
+ligar x y - Onde x é o número que vai efetuar a ligação e y é o número ao qual recebe a ligação;
 
-RF002 – Aceitar uma chamada.
+desligar x - Onde x é o número que está em ligação. O comando encerra a ligação.
 
-RF003 – Encerrar uma chamada.
+Antena: 
 
-RNF001 – A fila de espera será definida pela última antena ativada (aquela que possuir o número de destino).
+status x - Onde x é a Antena. Esse comando retorna o log de chamadas da Antena, incluindo a sua lista de espera;
 
--Feito: Classes definidas;
+espera x - Onde x é a Antena. Retorna a lista de espera da antena;
 
-Decisão de chamadas por thread;
+proximo x - Onde x é a Antena. Retorna o primeiro número a sair da antena (com base na prioridade dos números).
 
--A fazer: Vincular a chamada com as classes envolvidas:
+Simulação:
 
-Contabilizar as chamadas por antena;
+startDiscadores - Comando onde inicia o processo automático do simulador de antenas;
 
-Criar condição se a ligação exceder o limite das chamadas da antena, entrar na fila de prioridade ( o que entra é a soma das categoria dos números);,
+pauseDiscadores - Pausa a simulação.
 
-A chamada seria : 1 número X com classe Y usa a Antena A para ligar para o 2 com o número Z com a classe P e usa a antena B. A soma da classe Y com o P determina a sua fila de prioridade caso nenhuma antena esteja disponível.
+resumeDiscadores - Retorna a simulação.
 
-Se os números estiverem na mesma antena para se ligarem, a antena ocupará apenas 1 slot de chamada.
-
-Caso estiverem em antenas distintas, cada antena ocupará 1 slot de chamada correspondente ao seu número.
+Sistema:
+Exit - Encerra o programa. 
