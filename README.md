@@ -55,3 +55,6 @@ IntelliJ e Terminal (para log).
 
 ## Sistema:
 Exit - Encerra o programa. 
+
+#Video e explicação do programa:
+(a inserir)
