@@ -1,6 +1,7 @@
 # simulador_telefonia_2.0
 
-Trabalho final para o módulo Projeto de Algoritmos 2
+Trabalho final para o módulo Projeto de Algoritmos 2 - Ministrada pelo professor Gustavo Resque utilizando o conteúdo aprendido na sala de aula, 
+mais recursos adicionais para a implementação.
 
 ## Discentes:
 
