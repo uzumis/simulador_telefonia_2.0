@@ -2,6 +2,15 @@
 
 Trabalho final para o módulo Projeto de Algoritmos 2
 
+## Discentes:
+
+José Lucas dos Santos Cantão - 201804940008 
+
+Italo Martins Costa - 20404940032
+
+Thiago Calado Sosinho - 201504940037
+
+
 # Simulador de Telefonia #
 
 # Sobre
