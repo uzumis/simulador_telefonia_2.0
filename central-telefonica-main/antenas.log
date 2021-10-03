@@ -1,0 +1,6 @@
+2021-10-03 13:32:46.443 [Thread-2] INFO  b.u.c.t.c.Antena - Antena Antena-2 em execucao
+2021-10-03 13:32:46.443 [Thread-1] INFO  b.u.c.t.c.Antena - Antena Antena-0 em execucao
+2021-10-03 13:32:46.443 [Thread-0] INFO  b.u.c.t.c.Antena - Antena Antena-1 em execucao
+2021-10-03 13:33:08.192 [main] INFO  b.u.c.t.c.Antena - Antena-2 - Ligacao conectada 12 => 64
+2021-10-03 13:33:13.778 [main] INFO  b.u.c.t.c.Antena - Numero Ocupado! 64
+2021-10-03 13:33:18.560 [main] INFO  b.u.c.t.c.Antena - Numero Ocupado! 12
