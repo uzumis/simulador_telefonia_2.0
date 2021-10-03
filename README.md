@@ -1,5 +1,7 @@
 # simulador_telefonia_2.0
-Final assignment for Algorithm Project 
+
+Trabalho final para o módulo Projeto de Algoritmos 2
+
 # Simulador de Telefonia #
 
 # Sobre
