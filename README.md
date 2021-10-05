@@ -58,4 +58,5 @@ IntelliJ e Terminal (para log).
 Exit - Encerra o programa. 
 
 # Video e explicação do programa:
-(a inserir)
+
+https://youtu.be/Q7H3hnqw9Vg
